@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  font-size: 25px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card {
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 400px;
+  height: 650px;
+}
+.price-card {
+  align-self: center;
+  width: 300px;
+  height: 90px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.change-text {
+  align-self: center;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.card-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.plan-text {
+  font-weight: 900;
+  font-size: 15px;
+}
+.price-text {
+  color: hsl(224, 23%, 55%);
+  font-size: 15px;
+}
+.row {
+  height: 30px;
+  width: 100px;
+  margin-left: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-btn {
+  box-shadow: 5px 5px 10px hsl(224, 23%, 55%);
+  border: none;
+  border-radius: 10px;
+  align-self: center;
+  width: 300px;
+  height: 40px;
+  background-color: hsl(245, 75%, 52%);
+  padding: 7px 16px;
+  color: hsl(225, 100%, 94%);
+  font-weight: 700;
+}
+
+.cancel-btn {
+  border: none;
+  border-radius: 10px;
+  align-self: center;
+  width: 300px;
+  padding: 7px 16px;
+  color: white;
+  background-color: white;
+  text-decoration: none;
+}
+.card p:nth-child(0) {
+  width: 300px;
+  font-weight: 200;
+  align-self: center;
+  color: hsl(224, 23%, 55%);
+}
+.cancel-btn a {
+  font-family: "Red Hat Display", sans-serif;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-size: 15px;
+  font-weight: 900;
+}
+.long-text {
+  width: 300px;
+  font-weight: 200;
+  align-self: center;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5em;
+}

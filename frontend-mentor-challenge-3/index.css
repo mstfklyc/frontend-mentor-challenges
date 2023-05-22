@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.image-card {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.image-card img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 600px;
+  height: 450px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-card {
+  padding: 25px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 450px;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.perfume {
+  letter-spacing: 5px;
+}
+.card-btn {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  align-items: center;
+}
+
+.text-card h1 {
+  width: 200px;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+/* font-family: "Fraunces", serif; */
+/* font-family: "Montserrat", sans-serif; */
+
+.text-card p {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  /* font-family: "Fraunces", serif; */
+  font-size: 14px;
+}
+.card-icon {
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.text-card button {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 7px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+}
+
+.price-line {
+  width: 50px;
+  margin-left: 170px;
+  text-decoration: line-through;
+  position: absolute;
+  font-weight: lighter;
+}
+
+.price-text {
+  align-items: center;
+
+  color: hsl(158, 36%, 37%);
+  font-size: 35px;
+  display: flex;
+
+  font-family: "Fraunces", serif;
+}

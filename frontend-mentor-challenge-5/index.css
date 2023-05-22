@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Poppins", serif;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.icon-karma-section {
+  box-shadow: 5px 5px 10px hsl(229, 6%, 66%);
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  border-top: 2px solid hsl(34, 97%, 64%);
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  height: 200px;
+}
+
+.team-builder-section {
+  box-shadow: 5px 5px 10px hsl(229, 6%, 66%);
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  border-top: 3px solid hsl(0, 78%, 62%);
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  height: 200px;
+  margin-bottom: 50px;
+}
+.main-texts h1 {
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+}
+.main-texts h2 {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+.main-texts p {
+  width: 550px;
+  align-items: center;
+  color: hsl(229, 6%, 66%);
+  font-weight: 400;
+  font-size: 10px;
+  padding: 20px;
+}
+
+section p {
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+}
+
+.main-texts {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 500px;
+}
+
+.karma-icon {
+  width: 50px;
+  align-self: self-end;
+}
+
+.team-builder-icon {
+  width: 50px;
+  align-self: self-end;
+}
+
+.supervisor-icon {
+  width: 50px;
+  align-self: self-end;
+}
+.calculator-icon {
+  width: 50px;
+  align-self: self-end;
+}
+
+.supervisor-section {
+  box-shadow: 5px 5px 10px hsl(229, 6%, 66%);
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  border-top: 3px solid hsl(180, 62%, 55%);
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  height: 200px;
+}
+.calculator-section {
+  box-shadow: 5px 5px 10px hsl(229, 6%, 66%);
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  border-top: 3px solid hsl(212, 86%, 64%);
+  width: 300px;
+  padding: 20px;
+
+  background-color: white;
+  height: 200px;
+}
+
+.box {
+  position: relative;
+  margin: 15px;
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px var(--Grayish-Blue);
+  font-size: 0.8em;
+}
+.main-box {
+  margin: 30px 0;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.box-row {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 65%;
+  position: absolute;
+  justify-content: space-around;
+}

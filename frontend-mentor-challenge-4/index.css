@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.card {
+  border-radius: 10px;
+  justify-content: space-between;
+
+  padding: 20px;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.class-icon,
+.ethereum-icon {
+  width: 10px;
+}
+
+img {
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.title-text {
+  color: white;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+}
+.long-text {
+  padding: 20px 0px;
+}
+
+.attribution {
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.profile {
+  align-items: center;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px 0px;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+.creator-text {
+  color: hsl(215, 51%, 70%);
+  margin-left: 10px;
+}
+
+.name {
+  margin-left: 10px;
+  color: white;
+}
+
+.time-left {
+  width: fit-content;
+  display: flex;
+  align-self: flex-end;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+
+  align-items: center;
+}
+
+.eth-text {
+  font-size: 15px;
+  margin-left: -90px;
+  display: flex;
+  width: fit-content;
+
+  color: hsl(178, 100%, 50%);
+}
+
+.days-fit {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}

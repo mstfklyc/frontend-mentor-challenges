@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.main-container {
+  font-family: "Kumbh Sans", sans-serif;
+
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(273, 75%, 66%),
+    hsl(240, 73%, 65%)
+  );
+}
+
+.card {
+  font-size: 15px;
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  width: 850px;
+  height: 500px;
+  position: relative;
+}
+.faq {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+}
+.img-section {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 50%;
+  background-image: url(images/bg-pattern-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: 150%;
+  bottom: 50px;
+}
+
+.woman-img {
+  position: relative;
+  right: 60px;
+}
+
+.box-img {
+  position: absolute;
+  z-index: 5;
+  top: 160px;
+  left: -80px;
+}
+
+.answer {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease;
+  margin-top: 10px;
+  padding: 0px 10px;
+  color: hsl(240, 6%, 50%);
+
+  font-weight: 700;
+}
+
+.faq {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+}
+p:hover {
+  color: hsl(14, 88%, 65%);
+  transition: all 0.3s ease;
+}
+h1 {
+  font-weight: 700;
+  font-size: 35px;
+  color: hsl(237, 12%, 33%);
+}
+.question:hover {
+  color: orange;
+}
+.question {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid hsla(240, 6%, 50%, 0.3);
+}
+
+.question.active .answer {
+  max-height: 300px;
+  color: hsl(240, 6%, 50%);
+  font-weight: 700;
+}
+.try {
+  /*   padding: 10px;
+   */
+  display: flex;
+  justify-content: space-between;
+}
+.arrow-img {
+  width: 15px;
+  height: 10px;
+  transition: all 0.3s ease;
+}
+
+.question.active p:nth-child(1) {
+  font-weight: 700;
+
+  color: black;
+}
+.question.active img {
+  transform: rotate(180deg);
+  transition: all 0.25 ease;
+}
+
+.questionn {
+  color: hsl(240, 6%, 50%);
+  font-weight: 700;
+}
